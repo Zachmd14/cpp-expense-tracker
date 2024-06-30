@@ -5,9 +5,9 @@ int main(int argc, char *argv[]) {
   // Your code here
 
   cout << "\n===== EXPENSE TRACKER =====\n";
-  cout << "1 - Add Money";
-  cout << "2 - Withdraw Money";
-  cout << "3 - See Money Amount";
+  cout << "\n1 - Add Money";
+  cout << "\n2 - Withdraw Money";
+  cout << "\n3 - See Money Amount";
 
   // User input the menu he want to go to
   cout << "Menu selection : ";
