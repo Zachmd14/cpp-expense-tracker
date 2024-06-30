@@ -13,20 +13,19 @@ int main(int argc, char *argv[]) {
 
   switch (menuSelection) {
   case 1:
-    cout << "\nyou selected 1\n";
+    cout << "\n===== ADD MONEY =====\n";
     break;
   case 2:
-    cout << "\nyou selected 2\n";
+    cout << "\n===== WITHDRAW MONEY =====\n";
     break;
   case 3:
-    cout << "\nyou selected 3\n";
+    cout << "\n===== SEE MONEY AMOUNT =====\n";
     break;
-  case 4:
-    cout << "\nyou selected 4\n";
-    break;
-  case 5:
-    cout << "\nyou selected 5\n";
-    break;
+
+    // case 4:
+    //   cout << "\n===== LATEST TRANSACTION =====\n";
+    //   Gonna keep this one for latter break;
+
   default:
     cout << "\nNah, wrong option mate...";
     break;
