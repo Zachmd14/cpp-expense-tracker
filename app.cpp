@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
   cout << "\n3 - See Money Amount";
 
   // User input the menu he want to go to
-  cout << "Menu selection : ";
+  cout << "\nMenu selection : ";
   int menuSelection;
   cin >> menuSelection;
 
