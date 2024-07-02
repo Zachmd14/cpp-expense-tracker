@@ -4,6 +4,9 @@ using namespace std;
 int main(int argc, char *argv[]) {
   // Your code here
 
+  double moneyAmount = 0.0;
+  void addMoney(double &moneyAmount);
+
   cout << "\n===== EXPENSE TRACKER =====\n";
   cout << "\n1 - Add Money";
   cout << "\n2 - Withdraw Money";
@@ -17,6 +20,8 @@ int main(int argc, char *argv[]) {
   switch (menuSelection) {
   case 1:
     cout << "\n===== ADD MONEY =====\n";
+    addMoney(moneyAmount);
+    cout << "New Money amout : " << moneyAmount << endl;
     break;
   case 2:
     cout << "\n===== WITHDRAW MONEY =====\n";
@@ -35,4 +40,11 @@ int main(int argc, char *argv[]) {
   }
 
   return 0;
+}
+
+void addMoney(double &moneyAmount) {
+  double moneyToAdd;
+  cout << "Amout of roney to add : ";
+  cin >> moneyToAdd;
+  moneyAmount = moneyAmount + moneyToAdd;
 }
